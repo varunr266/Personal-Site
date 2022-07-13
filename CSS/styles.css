@@ -1,5 +1,10 @@
 body {
   background-color: #CDF0EA;
+  background-image: url(bg.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+
 }
 
 hr {
@@ -11,7 +16,9 @@ hr {
 }
 
 h1 {
+  font-size: 52px;
   color: #0f6666;
+  font-family: serif;
 }
 
 h3 {
@@ -26,16 +33,27 @@ p {
   color: #0f0600;
 }
 
-img:hover {
-  background-color: red;
-}
+/*img:hover {
+  background-color: none;
+}*/
 h3:hover{
   color: blue;
 }
 em:hover{
-  color: gold;
+  color: #ed0202;
 }
 
 .arial {
-  font-family: cursive;
+  font-family: monospace;
+  font-size: 22px;
+  /*color:#063e4f;*/
+}
+.fwd{
+  font-size: 32px;
+}
+.profilePhoto{
+  opacity: 1;
+}
+.profilePhoto:hover{
+  opacity: 0.7;
 }
