@@ -35,3 +35,7 @@ h3:hover{
 em:hover{
   color: gold;
 }
+
+.arial {
+  font-family: cursive;
+}
