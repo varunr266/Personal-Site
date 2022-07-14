@@ -1,9 +1,5 @@
 body {
-  background-color: #CDF0EA;
-  background-image: url(bg.jpeg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-
+  background-color: #FFFFDD;
 
 }
 
@@ -32,6 +28,10 @@ td {
 p {
   color: #0f0600;
 }
+a{
+  font-size: 22px;
+  color: #0f6666;
+}
 
 /*img:hover {
   background-color: none;
@@ -42,7 +42,12 @@ h3:hover{
 em:hover{
   color: #ed0202;
 }
-
+.indexBody {
+  background-color: #CDF0EA;
+  /*background-image: url(bg.jpeg);*/
+  background-repeat: no-repeat;
+  background-size: auto;
+}
 .arial {
   font-family: monospace;
   font-size: 22px;
